@@ -1,0 +1,82 @@
+{
+  "questions": [
+    {
+      "title": "Combien font 1+1 ?",
+      "answers": [
+        {
+          "title": "2",
+          "truth": true
+        },
+        {
+          "title": "3",
+          "truth": false
+        }
+      ],
+      "data": {
+        "explanations": [
+          {
+            "type": "paragraph",
+            "value": "C'est une base fondamentale des mathématiques."
+          },
+          {
+            "type": "button",
+            "value": "En savoir plus...",
+            "link": "https://google.fr/"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Combien font 5+1 ?",
+      "answers": [
+        {
+          "title": "6",
+          "truth": true
+        },
+        {
+          "title": "3",
+          "truth": false
+        }
+      ],
+      "data": {
+        "explanations": [
+          {
+            "type": "paragraph",
+            "value": "C'est une base fondamentale des mathématiques."
+          },
+          {
+            "type": "button",
+            "value": "En savoir plus...",
+            "link": "https://google.fr/"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Combien font 2+2 ?",
+      "answers": [
+        {
+          "title": "4",
+          "truth": true
+        },
+        {
+          "title": "3",
+          "truth": false
+        }
+      ],
+      "data": {
+        "explanations": [
+          {
+            "type": "paragraph",
+            "value": "C'est une base fondamentale des mathématiques."
+          },
+          {
+            "type": "button",
+            "value": "En savoir plus...",
+            "link": "https://google.fr/"
+          }
+        ]
+      }
+    }
+  ]
+}
