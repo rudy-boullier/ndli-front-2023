@@ -32,7 +32,7 @@ function Header() {
     return (
         <div className={"header"}>
             <div className="icon">
-                <img src={leaf} alt="icon leaf accessibilité" />
+                <img src={leaf} alt="icon leaf accessibilité" loading="lazy" />
             </div>
 
             <div className="gear">
@@ -41,7 +41,11 @@ function Header() {
                     className="button-gear"
                     onClick={toggleNav}
                 >
-                    <img src={gear} alt="icon gear accessibilité" />
+                    <img
+                        src={gear}
+                        alt="icon gear accessibilité"
+                        loading="lazy"
+                    />
                 </button>
 
                 <div className={`gear-content ${isClose ? "" : "open"}`}>

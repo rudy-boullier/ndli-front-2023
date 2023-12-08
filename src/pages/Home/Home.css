@@ -11,7 +11,7 @@
     justify-content: space-around;
 }
 
-#mainContainer:first-child{
+#mainContainer:first-child {
     display: flex;
     width: 100%;
     align-content: center;
@@ -25,7 +25,7 @@
     margin: 20px;
     width: calc(50% - 40px);
     gap: 20px;
-
+    background-color: var(--color-pigment-green);
     border-radius: 5px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
