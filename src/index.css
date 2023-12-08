@@ -4,6 +4,8 @@
     font-weight: 400;
 }
 
-*{
-    list-style: none;
+
+.mainContainer {
+    margin: auto;
+    width: 75vw;
 }

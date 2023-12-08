@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import React, {useState} from "react";
 import "./question.css";
 import data from "../../data/data.json";
-import { Question } from "../../types/question";
+import {Question} from "../../types/question";
 
 const QuestionPage: React.FC = () => {
     const [selectedAnswer, setSelectedAnswer] = useState<number | null>(null);
@@ -18,24 +18,34 @@ const QuestionPage: React.FC = () => {
 
     const renderAnswers = () => {
         return myQuestion.answers.map((answer, index) => (
-            <li key={index} onClick={() => handleAnswerClick(index)}>
-                <div className={selectedAnswer === index ? "selected" : ""}>
-                    {answer.title}
-                </div>
-            </li>
+            <div key={'answer.${index}'} className="answer">
+                <button
+                    tabIndex={0}
+                    onClick={() => handleAnswerClick(index)}
+                    onKeyDown={(e) => {
+                        if (e.key === 'Enter' || e.key === ' ') {
+                            handleAnswerClick(index);
+                        }
+                    }}
+                >
+                    <div className={selectedAnswer === index ? "selected" : ""}>
+                        {answer.title}
+                    </div>
+                </button>
+            </div>
         ));
     };
 
     const renderExplanation = () => {
         return (
             <div>
-                {myQuestion.data.explanations.map((explanation, index) => (
-                    <div key={index}>
+                {myQuestion.data.explanations.map((explanation) => (
+                    <div key={'explanation.${index}'}>
                         {explanation.type === "paragraph" && (
                             <p>{explanation.value}</p>
                         )}
                         {explanation.type === "image" && (
-                            <img src={explanation.value} alt="explication" />
+                            <img src={explanation.value} alt={explanation.alt} loading="lazy"/>
                         )}
                         {explanation.type === "button" && (
                             <a href={explanation.link}>{explanation.value}</a>
@@ -49,23 +59,25 @@ const QuestionPage: React.FC = () => {
     const resetState = () => {
         setSelectedAnswer(null);
         setShowExplanation(false);
-        setCurrentQuestionIndex(currentQuestionIndex + 1); // Incrémente l'index de la question
+        setCurrentQuestionIndex(currentQuestionIndex + 1);
     };
 
     return (
-        <div id="question">
-            <div>
-                {myQuestion.title}
+        <div className="mainContainer">
+            <div id="question">
+                <div id="title">
+                    {myQuestion.title}
+                </div>
+                <div id="answers">
+                    {renderAnswers()}
+                </div>
+                {showExplanation && renderExplanation()}
+                {showExplanation && (
+                    <button onClick={resetState}>
+                        Next Question
+                    </button>
+                )}
             </div>
-            <ul>
-                {renderAnswers()}
-            </ul>
-            {showExplanation && renderExplanation()}
-            {showExplanation && (
-                <button onClick={resetState}>
-                    Next Question
-                </button>
-            )}
         </div>
     );
 };

@@ -1,4 +1,4 @@
-export interface answer {
+export interface Answer {
     title: string;
     truth: boolean;
 }
@@ -10,6 +10,7 @@ export interface ExplanationParagraph {
 
 export interface ExplanationImage {
     type: 'image';
+    alt: string;
     value: string;
 }
 
@@ -19,12 +20,12 @@ export interface ExplanationButton {
     link: string;
 }
 
-export type explanations = ExplanationParagraph | ExplanationImage | ExplanationButton;
+export type explanation = ExplanationParagraph | ExplanationImage | ExplanationButton;
 
 export type Question = {
     title: string;
-    answers: answer[];
+    answers: Answer[];
     data: {
-        explanations: explanations[];
+        explanations: explanation[];
     };
 }

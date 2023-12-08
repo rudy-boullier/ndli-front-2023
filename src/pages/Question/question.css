@@ -1,23 +1,32 @@
+#question, #question #title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 #question {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
     width: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
-#question>div {
-    color: blue;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+#question #title {
+    margin-bottom: 20px;
 }
 
-#question>ul{
+#answers {
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 100%;
+}
+
+#question button {
+    max-width: 500px;
+    margin: 20px 0;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
