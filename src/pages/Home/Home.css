@@ -5,3 +5,27 @@
     align-items: center;
     min-height: 100vh;
 }
+#homeMainContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#mainContainer:first-child{
+    display: flex;
+    width: 100%;
+    align-content: center;
+}
+
+.question-container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #000;
+    padding: 20px;
+    margin: 20px;
+    width: calc(50% - 40px);
+    gap: 20px;
+
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
