@@ -1,7 +1,7 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import "./question.css";
 import data from "../../data/data.json";
-import {Question} from "../../types/question";
+import { Question } from "../../types/question";
 
 const QuestionPage: React.FC = () => {
     const [selectedAnswer, setSelectedAnswer] = useState<number | null>(null);
@@ -11,7 +11,7 @@ const QuestionPage: React.FC = () => {
     const questions = data.questions;
     const myQuestion: Question = questions[currentQuestionIndex];
 
-    const ASSETPATH = "../../assets/"
+    const ASSETPATH = "../../assets/";
 
     const handleAnswerClick = (index: number) => {
         setSelectedAnswer(index);
@@ -20,12 +20,12 @@ const QuestionPage: React.FC = () => {
 
     const renderAnswers = () => {
         return myQuestion.answers.map((answer, index) => (
-            <div key={'answer.${index}'} className="answer">
+            <div key={"answer.${index}"} className="answer">
                 <button
                     tabIndex={0}
                     onClick={() => handleAnswerClick(index)}
                     onKeyDown={(e) => {
-                        if (e.key === 'Enter' || e.key === ' ') {
+                        if (e.key === "Enter" || e.key === " ") {
                             handleAnswerClick(index);
                         }
                     }}
@@ -42,7 +42,7 @@ const QuestionPage: React.FC = () => {
         return (
             <div>
                 {myQuestion.data.explanations.map((explanation) => (
-                    <div key={'explanation.${index}'}>
+                    <div key={"explanation.${index}"}>
                         {explanation.type === "paragraph" && (
                             <p>{explanation.value}</p>
                         )}
@@ -52,8 +52,11 @@ const QuestionPage: React.FC = () => {
                     </div>
                 ))}
                 <div>
-                    <img src={`${ASSETPATH}/answers/${myQuestion.data.image.link}`}
-                         alt={myQuestion.data.image.description} loading="lazy"/>
+                    <img
+                        src={`${ASSETPATH}/answers/${myQuestion.data.image.link}`}
+                        alt={myQuestion.data.image.description}
+                        loading="lazy"
+                    />
                 </div>
             </div>
         );
@@ -66,20 +69,16 @@ const QuestionPage: React.FC = () => {
     };
 
     return (
-        <div className="mainContainer">
-            <div id="question">
-                <div id="title">
-                    {myQuestion.title}
+        <div className="question-container">
+            <div className="mainContainer">
+                <div id="question">
+                    <div id="title">{myQuestion.title}</div>
+                    <div id="answers">{renderAnswers()}</div>
+                    {showExplanation && renderExplanation()}
+                    {showExplanation && (
+                        <button onClick={resetState}>Next Question</button>
+                    )}
                 </div>
-                <div id="answers">
-                    {renderAnswers()}
-                </div>
-                {showExplanation && renderExplanation()}
-                {showExplanation && (
-                    <button onClick={resetState}>
-                        Next Question
-                    </button>
-                )}
             </div>
         </div>
     );

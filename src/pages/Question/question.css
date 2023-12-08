@@ -1,4 +1,5 @@
-#question, #question #title {
+#question,
+#question #title {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -31,8 +32,14 @@
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
 
-#question img{
+#question img {
     /*taille fixe aux images pour plus d'écoconception*/
     width: 10%;
     height: auto;
+}
+
+.question-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
 }
