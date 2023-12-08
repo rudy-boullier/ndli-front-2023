@@ -1,7 +1,45 @@
 :root {
-    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-family: Arial;
     line-height: 1.5;
     font-weight: 400;
+
+    --color-dark-green: #19381f;
+    --color-aureolin: #eee82c;
+    --color-yellow-green: #91cb3e;
+    --color-pigment-green: #53a548;
+    --color-sea-green: #4c934c;
+}
+
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "Regular";
+    src: local("OpenDyslexicRegular"),
+        url("../src/font/OpenDyslexicAlta-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Bold";
+    src: local("OpenDyslexicBold"),
+        url("../src/font/OpenDyslexicAlta-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Italic";
+    src: local("OpenDyslexicItalic"),
+        url("../src/font/OpenDyslexicAlta-Italic.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "BoldItalic";
+    src: local("OpenDyslexicBoldItalic"),
+        url("../src/font/OpenDyslexicAlta-BoldItalic.otf") format("otf");
 }
 
 
