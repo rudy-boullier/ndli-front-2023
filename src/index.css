@@ -3,7 +3,7 @@
     font-weight: 400;
 
     --color-dark-green: #19381f;
-    --color-aureolin: #eee82c;
+    --color-aureolin: #dbf3b3;
     --color-yellow-green: #91cb3e;
     --color-pigment-green: #53a548;
     --color-sea-green: #4c934c;
@@ -43,6 +43,6 @@
 
 
 .mainContainer {
-    margin: auto;
+    padding-top: 150px;
     width: 75vw;
 }
