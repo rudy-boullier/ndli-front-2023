@@ -23,9 +23,9 @@ function Header() {
         const bodyElement = document.body;
 
         if (bodyElement.style.fontFamily === "Arial") {
-            bodyElement.style.fontFamily = "OpenDyslexicRegular";
+            bodyElement.setAttribute("style", "font-family: Regular");
         } else {
-            bodyElement.style.fontFamily = "Arial";
+            bodyElement.setAttribute("style", "font-family: Arial");
         }
     };
 
