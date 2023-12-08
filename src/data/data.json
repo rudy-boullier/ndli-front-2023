@@ -1,0 +1,604 @@
+{
+  "questions": [
+    {
+      "title": "Le changement climatique est un phénomène naturel.",
+      "answers": [
+        {
+          "title": "Vrai",
+          "truth": false
+        },
+        {
+          "title": "Faux",
+          "truth": true
+        }
+      ],
+      "data": {
+        "explanations": [
+          {
+            "type": "paragraph",
+            "value": "Bien que le climat ait toujours changé naturellement, les activités humaines ont considérablement accéléré le rythme du changement climatique actuel."
+          },
+          {
+            "type": "button",
+            "value": "En savoir plus",
+            "link": "https://www.youtube.com/watch?v=T4LVXCCmIKA&ab_channel=LeMonde&themeRefresh=1"
+          }
+        ],
+        "image": {
+          "description": "Une planette représentant le cycle de l'eau et de l'oxygène",
+          "link": "1.svg"
+        }
+      }
+    },
+    {
+      "title": "Les émissions de gaz à effet de serre sont un problème.",
+      "answers": [
+        {
+          "title": "Vrai",
+          "truth": true
+        },
+        {
+          "title": "Faux",
+          "truth": false
+        }
+      ],
+      "data": {
+        "explanations": [
+          {
+            "type": "paragraph",
+            "value": "Les gaz à effet de serre, tels que le dioxyde de carbone, piègent la chaleur dans l'atmosphère et contribuent au réchauffement climatique. Réduire ces émissions est essentiel pour atténuer les effets du changement climatique."
+          },
+          {
+            "type": "button",
+            "value": "Tout savoir sur les GES",
+            "link": "https://www.notre-environnement.gouv.fr/themes/climat/article/les-emissions-de-gaz-a-effet-de-serre-et-l-empreinte-carbone"
+          }
+        ],
+        "image": {
+          "description": "Une flamme représentant l'émission de gaz à effet de serre",
+          "link": "2.svg"
+        }
+      }
+    },
+    {
+      "title": "Les énergies renouvelables ne sont pas viables.",
+      "answers": [
+        {
+          "title": "Vrai",
+          "truth": false
+        },
+        {
+          "title": "Faux",
+          "truth": true
+        }
+      ],
+      "data": {
+        "explanations": [
+          {
+            "type": "paragraph",
+            "value": "Les énergies renouvelables, comme l'énergie solaire et éolienne, sont de plus en plus compétitives et durables. Elles sont une alternative viable aux combustibles fossiles."
+          },
+          {
+            "type": "button",
+            "value": "Tout comprendre sur le renouvelable",
+            "link": "https://www.nationalgeographic.fr/environnement/tout-comprendre-sur-les-energies-renouvelables"
+          }
+        ],
+        "image": {
+          "description": "Une éolienne",
+          "link": "3.svg"
+        }
+      }
+    },
+    {
+      "title": "Les activités humaines contribuent significativement au changement climatique.",
+      "answers": [
+        {
+          "title": "Vrai",
+          "truth": true
+        },
+        {
+          "title": "Faux",
+          "truth": false
+        }
+      ],
+      "data": {
+        "explanations": [
+          {
+            "type": "paragraph",
+            "value": "Les activités humaines, telles que la combustion de combustibles fossiles et la déforestation, sont les principales causes du changement climatique actuel."
+          },
+          {
+            "type": "button",
+            "value": "Découvrir notre impact",
+            "link": "https://www.lemonde.fr/les-decodeurs/article/2021/11/03/comment-l-homme-bouscule-l-equilibre-du-climat-sur-la-terre_6100746_4355770.html"
+          }
+        ],
+        "image": {
+          "description": "L'évolution de l'homme et de la technologie",
+          "link": "4.svg"
+        }
+      }
+    },
+    {
+      "title": "Les pays en développement ne sont pas responsables du changement climatique.",
+      "answers": [
+        {
+          "title": "Vrai",
+          "truth": false
+        },
+        {
+          "title": "Faux",
+          "truth": true
+        }
+      ],
+      "data": {
+        "explanations": [
+          {
+            "type": "paragraph",
+            "value": "Bien que les pays développés aient historiquement émis davantage de gaz à effet de serre, les pays en développement connaissent également une augmentation de leurs émissions en raison de leur développement économique."
+          },
+          {
+            "type": "button",
+            "value": "En savoir plus",
+            "link": "https://www.lemonde.fr/planete/article/2021/10/25/climat-l-objectif-de-100-milliards-de-dollars-pour-les-pays-du-sud-atteignable-en-2023_6099859_3244.html"
+          }
+        ],
+        "image": {
+          "description": "Une bourse vide avec une pièce",
+          "link": "5.svg"
+        }
+      }
+    },
+    {
+      "title": "La transition vers des énergies propres est trop coûteuse.",
+      "answers": [
+        {
+          "title": "Vrai",
+          "truth": false
+        },
+        {
+          "title": "Faux",
+          "truth": true
+        }
+      ],
+      "data": {
+        "explanations": [
+          {
+            "type": "paragraph",
+            "value": "Bien que la transition énergétique puisse nécessiter des investissements initiaux, les coûts à long terme de l'utilisation des énergies renouvelables sont souvent inférieurs à ceux des combustibles fossiles."
+          },
+          {
+            "type": "button",
+            "value": "Découvrir le coût de la transition énergétique ",
+            "link": "https://www.gouvernement.fr/action/la-transition-energetique-pour-la-croissance-verte"
+          }
+        ],
+        "image": {
+          "description": "Les énergies vertes",
+          "link": "6.svg"
+        }
+      }
+    },
+    {
+      "title": "Le changement climatique n'affecte pas que l'environnement.",
+      "answers": [
+        {
+          "title": "Vrai",
+          "truth": true
+        },
+        {
+          "title": "Faux",
+          "truth": false
+        }
+      ],
+      "data": {
+        "explanations": [
+          {
+            "type": "paragraph",
+            "value": "Le changement climatique a des impacts sur l'environnement, l'économie et la santé humaine. Il peut entraîner des catastrophes naturelles plus fréquentes, des pénuries alimentaires et des migrations forcées."
+          },
+          {
+            "type": "button",
+            "value": "Découvrir l'imact du réchauffement climatique sur l'économie",
+            "link": "https://www.tresor.economie.gouv.fr/Articles/2020/07/09/tresor-eco-n-262-effets-economiques-du-changement-climatique"
+          }
+        ],
+        "image": {
+          "description": "Notre environnement habimé",
+          "link": "7.svg"
+        }
+      }
+    },
+    {
+      "title": "On peut tou·te·s lutter individuellement contre le changement climatique.",
+      "answers": [
+        {
+          "title": "Vrai",
+          "truth": true
+        },
+        {
+          "title": "Faux",
+          "truth": false
+        }
+      ],
+      "data": {
+        "explanations": [
+          {
+            "type": "paragraph",
+            "value": "Les petits gestes individuels, tels que la réduction de la consommation d'énergie, le recyclage et le choix d'un mode de transport durable, peuvent contribuer collectivement à réduire les émissions de gaz à effet de serre."
+          },
+          {
+            "type": "button",
+            "value": "Les geste pour consommer plus responsable",
+            "link": "https://www.economie.gouv.fr/particuliers/gestes-consommer-responsable"
+          }
+        ],
+        "image": {
+          "description": "Le sigle du recyclage",
+          "link": "8.svg"
+        }
+      }
+    },
+    {
+      "title": "La science du climat est incertaine.",
+      "answers": [
+        {
+          "title": "Vrai",
+          "truth": false
+        },
+        {
+          "title": "Faux",
+          "truth": true
+        }
+      ],
+      "data": {
+        "explanations": [
+          {
+            "type": "paragraph",
+            "value": "La science du climat est basée sur des données solides et des modèles scientifiques rigoureux. Bien qu'il puisse y avoir des incertitudes sur certains aspects, le consensus scientifique sur le changement climatique est solide."
+          },
+          {
+            "type": "button",
+            "value": "Je découvre la démarche scientifique",
+            "link": "https://www.vie-publique.fr/eclairage/19387-changement-climatique-les-fondements-scientifiques"
+          }
+        ],
+        "image": {
+          "description": "La science avec de l'éléctronique et une feuille",
+          "link": "9.svg"
+        }
+      }
+    },
+    {
+      "title": "Les énergies renouvelables peuvent fournir suffisamment d'électricité pour répondre à la demande mondiale.",
+      "answers": [
+        {
+          "title": "Vrai",
+          "truth": true
+        },
+        {
+          "title": "Faux",
+          "truth": false
+        }
+      ],
+      "data": {
+        "explanations": [
+          {
+            "type": "paragraph",
+            "value": "Les énergies renouvelables ont un potentiel énorme et peuvent fournir une quantité significative d'électricité. Des progrès technologiques continus rendent les énergies renouvelables de plus en plus viables."
+          },
+          {
+            "type": "button",
+            "value": "L'utilisation des energies renouvelables en France",
+            "link": "https://www.ecologie.gouv.fr/energies-renouvelables"
+          }
+        ],
+        "image": {
+          "description": "L'éléctricité",
+          "link": "10.svg"
+        }
+      }
+    },
+    {
+      "title": "Les énergies renouvelables sont fiables et peuvent garantir un approvisionnement constant en électricité.",
+      "answers": [
+        {
+          "title": "Vrai",
+          "truth": true
+        },
+        {
+          "title": "Faux",
+          "truth": false
+        }
+      ],
+      "data": {
+        "explanations": [
+          {
+            "type": "paragraph",
+            "value": "Les technologies de stockage de l'énergie, telles que les batteries, sont en développement constant, ce qui permet de compenser les fluctuations de production des énergies renouvelables et de garantir un approvisionnement stable."
+          },
+          {
+            "type": "button",
+            "value": "Comment stocker l'énergie ?",
+            "link": "https://commission.europa.eu/news/focus-batteries-key-enabler-low-carbon-economy-2021-03-15_fr"
+          }
+        ],
+        "image": {
+          "description": "Une fleur avec une prise a la place des pétales",
+          "link": "11.svg"
+        }
+      }
+    },
+    {
+      "title": "Les voitures électriques sont plus polluantes que les voitures à essence en raison de la production des batteries.",
+      "answers": [
+        {
+          "title": "Vrai",
+          "truth": false
+        },
+        {
+          "title": "Faux",
+          "truth": true
+        }
+      ],
+      "data": {
+        "explanations": [
+          {
+            "type": "paragraph",
+            "value": "Bien que la production des batteries puisse avoir un impact environnemental, les voitures électriques émettent moins de gaz à effet de serre sur l'ensemble de leur cycle de vie par rapport aux voitures à essence, surtout si elles sont alimentées par des sources d'énergie renouvelable."
+          },
+          {
+            "type": "button",
+            "value": "L'impact des voitures éléctriques",
+            "link": "https://bonpote.com/la-voiture-electrique-solution-ideale-pour-le-climat/"
+          }
+        ],
+        "image": {
+          "description": "Une voiture éléctrique",
+          "link": ""
+        }
+      }
+    },
+    {
+      "title": "Les efforts individuels pour réduire les émissions de gaz à effet de serre sont insignifiants par rapport aux émissions des grandes industries.",
+      "answers": [
+        {
+          "title": "Vrai",
+          "truth": false
+        },
+        {
+          "title": "Faux",
+          "truth": true
+        }
+      ],
+      "data": {
+        "explanations": [
+          {
+            "type": "paragraph",
+            "value": "Les actions individuelles sont importantes car elles envoient un signal aux industries et aux gouvernements, les incitant à adopter des pratiques plus durables. De plus, la somme des petits gestes individuels peut avoir un impact significatif."
+          },
+          {
+            "type": "button",
+            "value": "Les petits geste pour tout changer",
+            "link": "https://www.lemonde.fr/idees/article/2020/06/20/crise-ecologique-l-idee-qu-une-somme-de-petites-actions-individuelles-pourrait-suffire-est-dangereuse_6043534_3232.html"
+          }
+        ],
+        "image": {
+          "description": "",
+          "link": ""
+        }
+      }
+    },
+    {
+      "title": "La production de viande est neutre en carbone.",
+      "answers": [
+        {
+          "title": "Vrai",
+          "truth": false
+        },
+        {
+          "title": "Faux",
+          "truth": true
+        }
+      ],
+      "data": {
+        "explanations": [
+          {
+            "type": "paragraph",
+            "value": "L'industrie de l'élevage est responsable d'une part importante des émissions de gaz à effet de serre, principalement en raison de la déforestation pour l'expansion des pâturages et de la production de nourriture pour le bétail."
+          },
+          {
+            "type": "button",
+            "value": "En savoir plus",
+            "link": "https://www.notre-environnement.gouv.fr/themes/climat/les-emissions-de-gaz-a-effet-de-serre-et-l-empreinte-carbone-ressources/article/les-emissions-de-gaz-a-effet-de-serre-de-l-agriculture"
+          }
+        ],
+        "image": {
+          "description": "",
+          "link": ""
+        }
+      }
+    },
+    {
+      "title": "Les énergies fossiles sont essentielles pour soutenir l'économie mondiale.",
+      "answers": [
+        {
+          "title": "Vrai",
+          "truth": false
+        },
+        {
+          "title": "Faux",
+          "truth": true
+        }
+      ],
+      "data": {
+        "explanations": [
+          {
+            "type": "paragraph",
+            "value": "De plus en plus d'études montrent que la transition vers des énergies propres peut stimuler l'économie en créant de nouveaux emplois dans les secteurs des énergies renouvelables et de l'efficacité énergétique."
+          },
+          {
+            "type": "button",
+            "value": "Comment la transition énergétique créer de l'emploi",
+            "link": "https://presse.ademe.fr/2022/01/emploi-et-transition-ecologique-lademe-devoile-sa-feuille-de-route-2021-2023-visant-a-faciliter-les-dialogues-emploi-environnement-et-a-soutenir-la-creation-demplois.html"
+          }
+        ],
+        "image": {
+          "description": "",
+          "link": ""
+        }
+      }
+    },
+    {
+      "title": "Le nucléaire n'est pas la seule solution pour réduire les émissions de gaz à effet de serre.",
+      "answers": [
+        {
+          "title": "Vrai",
+          "truth": true
+        },
+        {
+          "title": "Faux",
+          "truth": false
+        }
+      ],
+      "data": {
+        "explanations": [
+          {
+            "type": "paragraph",
+            "value": "Bien que l'énergie nucléaire soit une source d'énergie à faible émission de carbone, elle présente également des risques environnementaux et de sécurité. Les énergies renouvelables peuvent être une alternative sûre et durable."
+          },
+          {
+            "type": "button",
+            "value": "Le nucléaire en pratique",
+            "link": "https://www.connaissancedesenergies.org/fiche-pedagogique/energie-nucleaire"
+          }
+        ],
+        "image": {
+          "description": "",
+          "link": ""
+        }
+      }
+    },
+    {
+      "title": "La fonte des glaciers n'affecte que les régions polaires.",
+      "answers": [
+        {
+          "title": "Vrai",
+          "truth": false
+        },
+        {
+          "title": "Faux",
+          "truth": true
+        }
+      ],
+      "data": {
+        "explanations": [
+          {
+            "type": "paragraph",
+            "value": "La fonte des glaciers a un impact mondial en contribuant à l'élévation du niveau de la mer, ce qui menace les zones côtières et les populations qui y vivent."
+          },
+          {
+            "type": "button",
+            "value": "L'impact de la fonte des glaciers",
+            "link": "https://www.cnrs.fr/fr/presse/fonte-des-glaciers-une-cartographie-complete-revele-lacceleration"
+          }
+        ],
+        "image": {
+          "description": "",
+          "link": ""
+        }
+      }
+    },
+    {
+      "title": "La géo-ingénierie est une solution efficace pour contrer le changement climatique.",
+      "answers": [
+        {
+          "title": "Vrai",
+          "truth": false
+        },
+        {
+          "title": "Faux",
+          "truth": true
+        }
+      ],
+      "data": {
+        "explanations": [
+          {
+            "type": "paragraph",
+            "value": "La géo-ingénierie, qui vise à manipuler le climat à grande échelle, présente des risques et des conséquences potentiellement imprévisibles. Il est préférable de se concentrer sur des solutions durables et éprouvées."
+          },
+          {
+            "type": "button",
+            "value": "Découvrir la géo-ingénierie",
+            "link": "https://www.lesechos.fr/idees-debats/cercle/la-geo-ingenierie-fausse-solution-pour-le-climat-1140216"
+          }
+        ],
+        "image": {
+          "description": "",
+          "link": ""
+        }
+      }
+    },
+    {
+      "title": "Le recyclage est suffisant pour résoudre les problèmes de déchets.",
+      "answers": [
+        {
+          "title": "Vrai",
+          "truth": false
+        },
+        {
+          "title": "Faux",
+          "truth": true
+        }
+      ],
+      "data": {
+        "explanations": [
+          {
+            "type": "paragraph",
+            "value": "Le recyclage est important, mais il est préférable de réduire la production de déchets à la source et de privilégier les produits durables, réutilisables et compostables."
+          },
+          {
+            "type": "button",
+            "value": "Réduire plutôt que recycler",
+            "link": "https://www.ecologie.gouv.fr/pourquoi-faut-il-reduire-dechets"
+          }
+        ],
+        "image": {
+          "description": "",
+          "link": ""
+        }
+      }
+    },
+    {
+      "title": "Les activités de reboisement peuvent compenser totalement les émissions de gaz à effet de serre.",
+      "answers": [
+        {
+          "title": "Vrai",
+          "truth": false
+        },
+        {
+          "title": "Faux",
+          "truth": true
+        }
+      ],
+      "data": {
+        "explanations": [
+          {
+            "type": "paragraph",
+            "value": "Le reboisement est important pour absorber le dioxyde de carbone, mais il ne peut pas compenser entièrement les émissions de gaz à effet de serre. Une approche globale qui réduit les émissions est nécessaire."
+          },
+          {
+            "type": "button",
+            "value": "Le reboisement, quel impact ?",
+            "link": "https://www.eco-planete.fr/reboisement-quelles-consequences-sur-le-climat/"
+          }
+        ],
+        "image": {
+          "description": "",
+          "link": ""
+        }
+      }
+    }
+  ]
+}
