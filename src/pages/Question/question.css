@@ -30,3 +30,9 @@
     border-radius: 5px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
+
+#question img{
+    /*taille fixe aux images pour plus d'écoconception*/
+    width: 10%;
+    height: auto;
+}

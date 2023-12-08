@@ -11,6 +11,8 @@ const QuestionPage: React.FC = () => {
     const questions = data.questions;
     const myQuestion: Question = questions[currentQuestionIndex];
 
+    const ASSETPATH = "../../assets/"
+
     const handleAnswerClick = (index: number) => {
         setSelectedAnswer(index);
         setShowExplanation(true);
@@ -44,14 +46,15 @@ const QuestionPage: React.FC = () => {
                         {explanation.type === "paragraph" && (
                             <p>{explanation.value}</p>
                         )}
-                        {explanation.type === "image" && (
-                            <img src={explanation.value} alt={explanation.alt} loading="lazy"/>
-                        )}
                         {explanation.type === "button" && (
                             <a href={explanation.link}>{explanation.value}</a>
                         )}
                     </div>
                 ))}
+                <div>
+                    <img src={`${ASSETPATH}/answers/${myQuestion.data.image.link}`}
+                         alt={myQuestion.data.image.description} loading="lazy"/>
+                </div>
             </div>
         );
     };

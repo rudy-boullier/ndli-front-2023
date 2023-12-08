@@ -8,24 +8,22 @@ export interface ExplanationParagraph {
     value: string;
 }
 
-export interface ExplanationImage {
-    type: 'image';
-    alt: string;
-    value: string;
-}
-
 export interface ExplanationButton {
     type: 'button';
     value: string;
     link: string;
 }
 
-export type explanation = ExplanationParagraph | ExplanationImage | ExplanationButton;
+export type explanation = ExplanationParagraph | ExplanationButton;
 
 export type Question = {
     title: string;
     answers: Answer[];
     data: {
         explanations: explanation[];
+        image: {
+            description: string;
+            link: string;
+        }
     };
 }
